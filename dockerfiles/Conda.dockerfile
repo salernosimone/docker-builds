@@ -1,5 +1,5 @@
-# Base image with CUDA 12.6
-FROM nvidia/cuda:12.6.0-runtime-ubuntu22.04
+# Base image with CUDA 12.4
+FROM nvidia/cuda:12.4.0-runtime-ubuntu22.04
 
 # Set environment variables
 ENV DEBIAN_FRONTEND=noninteractive \
