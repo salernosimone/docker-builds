@@ -7,5 +7,5 @@ RUN git clone --recursive https://github.com/salernosimone/LongSplat.git && \
     pip install -r requirements.txt && \
     pip install submodules/simple-knn && \
     pip install submodules/diff-gaussian-rasterization && \
-    pip install submodules/fused-ssim &&
+    pip install submodules/fused-ssim && \
     cd submodules/mast3r/dust3r/croco/models/curope/ && python setup.py build_ext --inplace
