@@ -24,7 +24,7 @@ elif [ "$part" == "2" ]; then
   sudo apt install -y docker.io nvidia-container-toolkit
   sudo nvidia-ctk runtime configure --runtime=docker
   sudo systemctl restart docker
-  sudo docker run --rm --gpus all salernosimone/cuda-conda:12.4 nvidia-smi
+  sudo docker run --rm --gpus all salernosimone/uv nvidia-smi
 
 else
   echo "Invalid option. Please enter 1 or 2."
